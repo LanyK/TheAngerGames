@@ -1,3 +1,38 @@
 # The Anger Games
 
-TODO
+*Exploring the Concept of Anger as a Game Element*
+
+## Group Members
+
+- A. Perzl
+- M. Zierl
+- M. Bachmaier
+- Y. Kaiser
+
+## Repository Overview
+
+- **bombangerman** holds the main project of devising and implementing a multiplayer game that tracks and uses the players' emotional state. This is the **main** part of this project
+- **face-emotion-recognition** holds software created and used to train a neural facial emotion recognition model
+- **popup-shutdown** holds a small web game that was an early test of frustration-inducing gameplay
+- **simple-server** holds a test server devised to send dummy and real emotion data
+
+## Bombangerman
+
+### About
+
+*Bombangerman* is a [Bomberman](https://en.wikipedia.org/wiki/Bomberman) clone that incorporates emotion detection into the main gameplay loop. Players are tracked via facial emotion recognition and them becoming angry triggers increased difficulty for the angry player. Additionally, the program can track data from an Epatica E4 wristband and record game sessions, including data gathered this way. The programs are created for **Python 3.6**.
+
+### How To Run
+
+To run the full stack, adhere to the following steps, installing python dependencies as prompted.
+
+On the Server Machine (can be a Client Machine simoultanously):
+- start ./bombangerman/server/Server.py
+- start ./bombangerman/server/AngerBroadcaster.py
+
+On both Client Machines:
+- start ./bombangerman/client/Client.py and wait in the main menu
+- start ./bombangerman/client/Face_Recognition_Client.py
+
+Both Clients:
+- start the game via entering the server IP
