@@ -34,7 +34,7 @@ On the Server Machine (can be a Client Machine simoultanously):
 
 On both Client Machines:
 - start ./bombangerman/client/Client.py and wait in the main menu
-- start ./bombangerman/client/Face_Recognition_Client.py
+- start ./bombangerman/client/Face_Recognition_Client.py (*it may be possible that the game needs to be started once withouth the face recognition client for it to successfully connect*)
 
 Both Clients:
 - start the game via entering the server IP
