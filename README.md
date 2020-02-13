@@ -41,6 +41,7 @@ Both Clients:
 
 Including Empatica E4 wristband:
 - run the ./e4-ios App on an device with iOS 12 and follow the readme instructions in ./e4-ios/
+- after the app has started insert the IP adress of the server
 
 ### Recordings
 
