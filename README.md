@@ -1,6 +1,6 @@
 # The Anger Games
 
-*Exploring the Concept of Anger as a Game Element*
+*Exploring the Concept of Anger as a Game Element* <br>
 The paper to this project is included in this repository at https://github.com/LanyK/TheAngerGames/blob/master/The_Anger_Games_Paper.pdf
 
 ## Group Members
