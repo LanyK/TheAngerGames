@@ -36,3 +36,24 @@ On both Client Machines:
 
 Both Clients:
 - start the game via entering the server IP
+
+### Recordings
+
+To enable recordings, run the server with the **-s** flag set.
+
+To display a recording, run ./bombangerman/client/GameReplay.py <TimeStamp>, where <TimeStamp> is the folder name of one of the replay folders in ./bombangerman/replays/
+  
+### Controls
+
+The game controls are:
+- **I** - move up
+- **J** - move left
+- **K** - move down
+- **L** - move right
+- **Space** - place a bomb
+- **U** - Taunt
+- **O** - Slime the enemy
+
+## Popup-Shutdown
+
+Run by starting ./popup-shutdown/index.html in a web browser
