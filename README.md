@@ -16,6 +16,7 @@ The paper to this project is included in this repository at https://github.com/L
 - **face-emotion-recognition** holds software created and used to train a neural facial emotion recognition model
 - **popup-shutdown** holds a small web game that was an early test of frustration-inducing gameplay
 - **simple-server** holds a test server devised to send dummy and real emotion data
+- **e4-ios** holds an iOS app that is used to connect to Empatica E4 wristbands and send the data to the server
 
 ## Bombangerman
 
@@ -37,6 +38,9 @@ On both Client Machines:
 
 Both Clients:
 - start the game via entering the server IP
+
+Including Empatica E4 wristband:
+- run the ./e4-ios App on an device with iOS 12 and follow the readme instructions in ./e4-ios/
 
 ### Recordings
 
